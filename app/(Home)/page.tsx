@@ -5,7 +5,7 @@ import Link from 'next/link'
 const HomePage = () => {
   return (
       <div>
-          HomePage(protected)
+          HomePage(unprotected)
           <Link href="/sign-in">
               <Button>Login</Button>
           </Link>
