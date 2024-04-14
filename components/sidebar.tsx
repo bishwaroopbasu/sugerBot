@@ -1,12 +1,13 @@
 'use client'
 
-import { cn } from "@/lib/utils";
 import { Lobster } from "next/font/google";
+import { cn } from "@/lib/utils";
 import Image from "next/image"
 import Link from "next/link"
 
-import { navLinks } from "@/app/constants";
 import { usePathname } from "next/navigation";
+
+import { navLinks } from "@/app/constants";
 
 const lobster = Lobster({
   weight: "400",
